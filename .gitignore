@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Data produced when you run the pipeline (never commit data)
+lakehouse/
+landing/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Secrets
+.env
